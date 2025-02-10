@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>weatherHub details</title>
+    <link rel="icon" href="./assets/weatherHub.webp">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    
+    <style>
+        body {
+    background: url('./assets/weatherHub.webp') no-repeat  fixed;
+    background-size: cover;  
+    
+}
+
+        .container{
+            background-color: whitesmoke;
+        }
+        p,li{
+            font-size: 20px;
+        }
+        button{
+            margin-left: 40%;
+        }
+        span{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body >
+
+<div class="container mt-5 p-5 border rounded shadow  ">
+    <h2 class="text-primary">WeatherHub – Real-Time Weather Application</h2>
+    
+    <h4 class="mt-3">Description:</h4>
+    <p class="text-muted">Developed <b>WeatherHub</b>, a responsive web application that provides real-time weather updates for any location. The app fetches data from a weather API and displays essential weather parameters such as temperature, humidity, wind speed, and conditions in a user-friendly interface.</p>
+
+    <h4 class="mt-3">Key Features:</h4>
+    <ul>
+        <li ><b> Real-time Weather Data</b> - Integrated OpenWeather API to fetch live weather conditions.</li>
+        <li ><b> Search Functionality </b> - Allows users to check weather updates for any city worldwide.</li>
+        <li ><b>Responsive Design</b> - Built with Bootstrap and CSS to ensure seamless experience across devices.</li>
+        <li ><b> Dynamic UI Updates </b> - Weather icons and background change dynamically based on conditions.</li>
+        <li><b> Error Handling</b> - Displays alerts for invalid locations or network issues.</li>
+    </ul>
+
+    <div class="mt-3">
+        <h4>Technologies Used:</h4>
+
+        <ul>
+            <li> HTML, CSS, JavaScript</li>
+            <li>Bootstrap (for styling & responsiveness)</li>
+            <li> Weather API (for fetching live data)</li>
+            <li> GitHub Pages (for hosting)</li>
+        </ul>
+    </div>
+    <b>Website:</b><a href="https://elavarasan325.github.io/WeatherHub/"> https://elavarasan325.github.io/WeatherHub/</a>
+
+    <button class="btn btn-danger mt-3 " onclick="location.href='index.html'">Previous</button>
+</div>
+
+<script>
+    function hideContainer() {
+        document.querySelector(".container").style.display = "none";
+    }
+</script>
+
+<!-- Bootstrap JS (Optional) -->
+
+</body>
+</html>
